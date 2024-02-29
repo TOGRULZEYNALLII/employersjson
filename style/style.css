@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  background-color: #edf2f4;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1030px;
+  background-color: #fff;
+  border-radius: 40px;
+  margin: 50px auto;
+  padding: 40px 42px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.form-wrapper .form-item input {
+  padding: 15px 16px;
+  border-radius: 4px;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+.form-wrapper button {
+  min-width: 148px;
+  background-color: #023e8a;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+}
+table td,
+table th {
+  padding: 10px;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+.deletebtn {
+  background-color: orange;
+  color: black;
+  border-radius: 10px;
+  width: 70px;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+}
+
+.deletebtn:hover {
+  transition: ease-in-out 0.3s;
+  background-color: red;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
